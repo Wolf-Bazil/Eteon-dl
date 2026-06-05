@@ -5,7 +5,7 @@ An automated python script to download any YouTube playlist, no matter the size 
 ## ⚙️ Installation Guide (Windows)
 
 
-Firstly, Copy and Paste main.py in your Venv folder.
+Firstly, Copy and Paste main.py in a new folder in VS Code.
 Then, Open **PowerShell** or **Terminal** in VS Code and run these commands in succession:
 
 pip install yt-dlp
