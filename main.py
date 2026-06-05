@@ -8,10 +8,10 @@ def download_youtube_playlist(playlist_url):
         'noplaylist': False,
     }
 
-    print("🚀 Initializing download sequence...")
+    print("Initializing download sequence..")
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([playlist_url])
-    print("✅ Playlist download complete!")
+    print("Playlist download complete.")
 
 if __name__ == "__main__":
     url = input("Paste your YouTube Playlist URL: ")
