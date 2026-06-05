@@ -9,7 +9,7 @@ opts = {
     'noplaylist': False, 
 }
 
-print("Initializing Download...")
+print("Initializing Download..")
 
 with yt_dlp.YoutubeDL(opts) as ydl:
     ydl.download([url])
