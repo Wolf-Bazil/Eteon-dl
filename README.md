@@ -9,7 +9,9 @@ Firstly, Copy and Paste main.py in your Venv environment
 Then, Open **PowerShell** or **Terminal** in VS Code and run these commands in succession:
 
 pip install yt-dlp
+
 winget install ffmpeg
+
 python main.py
 
 Then paste your YouTube playlist URL when prompted (Playlist must be public/unlisted)
